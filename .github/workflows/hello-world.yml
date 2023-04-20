@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  my-job:
+    runs-on: ubunru-latest
+    steps:
+      - name: my-step
+        run: make say-hello
